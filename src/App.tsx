@@ -783,6 +783,14 @@ export default function App() {
                 <h1 className="text-3xl font-bold text-arctic-navy">Dashboard</h1>
               </div>
               <div className="flex items-center gap-3">
+                <a 
+                  href="/ARCTIC_OVERVIEW.md" 
+                  target="_blank"
+                  className="px-3 py-1.5 bg-white shadow-sm rounded-full flex items-center gap-2 border border-slate-50 text-slate-400 hover:text-arctic-teal transition-colors"
+                >
+                  <Quote className="w-4 h-4" />
+                  <span className="text-[10px] font-bold uppercase tracking-widest">Docs</span>
+                </a>
                 <div className="px-3 py-1.5 bg-white shadow-sm rounded-full flex items-center gap-2 border border-slate-50">
                   <Sparkles className="w-4 h-4 text-arctic-teal" />
                   <span className="text-xs font-black text-arctic-navy tracking-tight">{credits}</span>
